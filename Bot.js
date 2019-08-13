@@ -6,7 +6,7 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === '@Nocny Marek') {
+    if (message.content === '@Nocny Marek#0202') {
         message.reply('zostaw mnie!');
   	}
 });
