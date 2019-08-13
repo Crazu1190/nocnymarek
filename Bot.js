@@ -6,7 +6,7 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === '<@&610877604173709312>') {
+    if (message.content === '@Nocny Marek') {
         message.reply('zostaw mnie!');
   	}
 });
