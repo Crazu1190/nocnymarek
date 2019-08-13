@@ -6,8 +6,10 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === '@Nocny Marek#0202 ') {
-        message.reply('zostaw mnie!');
+    if (message.content === 'Kurwa') {
+        message.reply('nie używaj przekleństw');
+        message.channel.send('Została powiadomiona administracja!');
+        message.channel.send('<@&606831836668231681>');
   	}
 });
 
