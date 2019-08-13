@@ -18,7 +18,7 @@ client.on('message', message => {
         message.channel.send('**Nagrody;**');
         message.channel.send('***Rzadka ranga***');
         message.channel.send('**10k waluty serwerowej**');
-        message.channel.send('**Emotki do nicku.**');
+        message.channel.send('**Twój mem będzie pod !mem**');
   	}
 });
 
