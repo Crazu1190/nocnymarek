@@ -6,7 +6,7 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === '!konkurs') {
+    if (message.content === '!konjsnsnsbsbs') {
         message.channel.send('<@&609160113265311787> Konkurs na mem miesiąca.');
         message.channel.send('**Najzabawniejszy mem wygrywa!**');
         message.channel.send('**Nagrody:**');
