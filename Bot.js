@@ -7,7 +7,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === '!konkurs') {
-        message.channel.send('@Ping Ogłoszenia┇📍 Konkurs na mem miesiąca.');
+        message.channel.send('@here Konkurs na mem miesiąca.');
         message.channel.send('**Najzabawniejszy mem wygrywa!**');
         message.channel.send('**Nagrody:**');
         message.channel.send('***Rzadka ranga***');
