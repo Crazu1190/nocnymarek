@@ -7,11 +7,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === '!konkurs') {
-    	message.channel.send('@everyone');
-        message.channel.send('Konkurs na mem miesiąca.');
-        message.channel.send('■■■■■■■■■■■■');
-        message.channel.send('Co trzeba zrobić aby wygrać?');
-        message.channel.send('**Zrobić śmieszny mem**');
+        message.channel.send('@everyone Konkurs na mem miesiąca.');
         message.channel.send('Wymagania:');
         message.channel.send('**Dołączyć na serwer discord:**');
         message.channel.send('https://discord.gg/StJHcnV');
