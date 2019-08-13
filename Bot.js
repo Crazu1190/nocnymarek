@@ -6,11 +6,10 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'Kurwa') {
-        message.reply('nie używaj przekleństw');
-        message.delete('');
-        message.channel.send('Została powiadomiona administracja!');
-        message.channel.send('<@&606831836668231681>');
+    if (message.content === '!mem') {
+        message.channel.send('**Konkurs się jeszcze nie zakończył!');
+        message.channel.send('');
+        message.channel.send('');
   	}
 });
 
