@@ -7,9 +7,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === '!mem') {
-        message.channel.send(':x:**Bot został wyłączony!**:x:');
-        message.channel.send('**Przez:** Crazy1190');
-        message.channel.send('**Powód:** Nie podano');
+        message.channel.send('```Konkurs na mem miesiąca się jeszcze nie skończył! Konkurs skończy się dnia: 01.09.2019```');
   	}
 });
 
